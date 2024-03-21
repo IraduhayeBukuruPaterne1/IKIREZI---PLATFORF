@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IKIREZI PLATFORM</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Government Services Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="language-selector">
@@ -17,38 +17,84 @@
     </div>
 
     <header>
-        <h1 id="portal-title">IKIREZI PLATFORM</h1>
+        <h1 id="portal-title">IKIREZI</h1>
     </header>
+    <section>
+        <h1 id="registration-title">User Registration</h1>
+        <p id="registration-description">Create an account to access government services.</p>
+        <div class="application-form">
+            <form action="/register" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
 
-    <nav>
-        <a href="#home" onclick="showSection('home')">Home</a>
-        <a href="#passport" onclick="showSection('passport')">Passport</a>
-        <a href="#equivalency" onclick="showSection('equivalency')">Equivalency</a>
-        <a href="#birth-certificate" onclick="showSection('birth-certificate')">Birth Certificate</a>
-        <a href="#id-collection" onclick="showSection('id-collection')">ID Collection</a>
-    </nav>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-    <section id="home">
-        <h1>Welcome to IKIREZI PLATFORM</h1>
-        <p>Your gateway to efficient and secure government services.</p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
     </section>
 
-    <section id="passport">
-        <!-- Passport section content -->
-    </section>
+    <section>
+        <h1 id="login-title">User Login</h1>
+        <p id="login-description">Already have an account? Log in here.</p>
+        <div class="application-form">
+            <form action="/login" method="post">
+                <label for="login_username">Username:</label>
+                <input type="text" id="login_username" name="login_username" required>
 
-    <section id="equivalency">
-        <!-- Equivalency section content -->
-    </section>
+                <label for="login_password">Password:</label>
+                <input type="password" id="login_password" name="login_password" required>
 
-    <section id="birth-certificate">
-        <!-- Birth Certificate section content -->
+                <input type="submit" value="Login">
+            </form>
+        </div>
     </section>
+    <section>
+        <h1 id="passport-title">Passport Application</h1>
+        <p id="passport-description">Apply for your passport online with ease.</p>
+        <div class="application-form">
+            <form action="/submit_passport_application" method="post">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required>
 
-    <section id="id-collection">
-        <!-- ID Collection section content -->
-    </section>
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required>
 
-    <script src="script.js"></script>
-</body>
-</html>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="national_id">National ID Number:</label>
+                <input type="text" id="national_id" name="national_id" required>
+
+                <label for="passport_type">Passport Type:</label>
+                <select id="passport_type" name="passport_type" required>
+                    <option value="ordinary">Ordinary</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <label for="province_passport">Province:</label>
+                <select id="province_passport" name="province_passport" onchange="updateCommunes('commune_passport', 'province_passport')" required>
+                    <option value="bubanza">Bubanza</option>
+                    <option value="bujumbura-mairie">Bujumbura Mairie</option>
+                    <option value="bujumbura-rural">Bujumbura Rural</option>
+                    <option value="bururi">Bururi</option>
+                    <option value="cankuzo">Cankuzo</option>
+                    <option value="cibitoke">Cibitoke</option>
+                    <option value="gitega">Gitega</option>
+                    <option value="karuzi">Karuzi</option>
+                    <option value="kayanza">Kayanza</option>
+                    <option value="kirundo">Kirundo</option>
+                    <option value="makamba">Makamba</option>
+                    <option value="muramvya">Muramvya</option>
+                    <option value="m
