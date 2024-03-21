@@ -1,5 +1,3 @@
-/* style2.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -73,6 +71,7 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
+/* Language selector styles */
 .language-selector {
     position: absolute;
     top: 10px;
