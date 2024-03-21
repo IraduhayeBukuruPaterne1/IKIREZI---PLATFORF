@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKIREZI PLATFORM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="language-selector">
+        <label for="language">Language:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="sw">Kiswahili</option>
+        </select>
+    </div>
+
+    <header>
+        <h1 id="portal-title">IKIREZI PLATFORM</h1>
+    </header>
+
+    <nav>
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#passport" onclick="showSection('passport')">Passport</a>
+        <a href="#equivalency" onclick="showSection('equivalency')">Equivalency</a>
+        <a href="#birth-certificate" onclick="showSection('birth-certificate')">Birth Certificate</a>
+        <a href="#id-collection" onclick="showSection('id-collection')">ID Collection</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to IKIREZI PLATFORM</h1>
+        <p>Your gateway to efficient and secure government services.</p>
+    </section>
+
+    <section id="passport">
+        <!-- Passport section content -->
+    </section>
+
+    <section id="equivalency">
+        <!-- Equivalency section content -->
+    </section>
+
+    <section id="birth-certificate">
+        <!-- Birth Certificate section content -->
+    </section>
+
+    <section id="id-collection">
+        <!-- ID Collection section content -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
