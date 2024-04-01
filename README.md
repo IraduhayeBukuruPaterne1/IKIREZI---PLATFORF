@@ -10,7 +10,8 @@ Clone the repository:https://github.com/IraduhayeBukuruPaterne1/IKIREZI---PLATFO
 
 
 bash
-git clone https://github.com/your-username/ikirezi-platform.git
+git clone https://github.com/IraduhayeBukuruPaterne1/IKIREZI---PLATFORM.git
+
 
 
 Navigate to the project directory:
