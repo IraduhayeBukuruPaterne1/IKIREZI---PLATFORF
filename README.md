@@ -1,5 +1,7 @@
 IKIREZI Platform
+
 Description
+
 The IKIREZI Platform is an online system designed to enhance accessibility to essential administrative services in Burundi, focusing on education technology and government services. It aims to streamline application processes for passports, equivalence certifications, and birth certificates, ultimately fostering innovation in education and improving the efficiency of government services.
 
 Setup Instructions
