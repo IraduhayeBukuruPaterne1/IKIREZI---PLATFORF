@@ -9,8 +9,8 @@ MongoDB installed and running locally or accessible remotely
 Installation
 Clone the repository:
 bash
-Copy code
-git clone https://github.com/IraduhayeBukuruPaterne1/ikirezi-platform.git
+Copy code[
+git clone https://github.com/IraduhayeBukuruPaterne1/ikirezi-platform.git](https://github.com/IraduhayeBukuruPaterne1/IKIREZI---PLATFORF.git)
 Navigate to the project directory:
 bash
 Copy code
