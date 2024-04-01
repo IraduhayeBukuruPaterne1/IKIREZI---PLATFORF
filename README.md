@@ -53,7 +53,7 @@ sql
 npm start
 
 
-Open your web browser and navigate to http://localhost:3000.
+Open your web browser and navigate to file:///Users/iraduhayebukurupaternegmailcom/Desktop/CODES/paterne/h.html/f.html#passport to Register first and create an account, then use this: file:///Users/iraduhayebukurupaternegmailcom/Desktop/CODES/buttons.html to start your application
 Usage
 Follow the on-screen instructions to navigate the platform.
 Use the provided forms to apply for passports, equivalence certifications, and birth certificates.
